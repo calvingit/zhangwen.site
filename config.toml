@@ -1,3 +1,45 @@
-baseURL = 'http://example.org/'
-languageCode = 'en-us'
-title = 'My New Hugo Site'
+baseURL = 'https://zhangwen.site/'
+languageCode = 'zh'
+title = "Calvin's Blog"
+theme = 'paper'
+
+[params]
+  github = 'calvingit'
+  rss = true
+  avatar = 'https://cdn.zhangwen.site/files/567.png'
+  name = 'Calvin'
+  monoDarkIcon = true
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  series = "series"
+
+[menu]
+  [[menu.main]]
+    identifier = 'home'
+    name = 'Home'
+    pre = "<i class='fa fa-heart'></i>"
+    url = '/index.html'
+    weight = 1
+
+  [[menu.main]]
+    identifier = 'archive'
+    name = 'Archives'
+    pre = "<i class='fa fa-road'></i>"
+    url = '/archives'
+    weight = 2
+
+  [[menu.main]]
+    identifier = 'reading'
+    name = 'Reading'
+    pre = "<i class='fa fa-road'></i>"
+    url = '/series/Reading'
+    weight = 3
+
+  [[menu.main]]
+    identifier = 'about'
+    name = 'About'
+    pre = "<i class='fa fa-heart'></i>"
+    url = '/about/index.html'
+    weight = 100
