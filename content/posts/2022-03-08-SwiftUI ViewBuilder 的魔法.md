@@ -1,10 +1,12 @@
 ---
 title: SwiftUI ViewBuilder 的魔法
 slug: viewbuilder
-date: 2021-03-08
+date: 2022-03-08
+categories:
+  - iOS
+tags:
+  - SwiftUI
 toc: true
-categories: [iOS]
-tags: [SwiftUI]
 ---
 
 ## 定义
