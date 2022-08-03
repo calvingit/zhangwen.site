@@ -15,6 +15,11 @@ theme = 'paper'
   tag = "tags"
   series = "series"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [menu]
   [[menu.main]]
     identifier = 'home'
@@ -36,6 +41,13 @@ theme = 'paper'
     pre = "<i class='fa fa-road'></i>"
     url = '/series/Reading'
     weight = 3
+
+  [[menu.main]]
+    identifier = 'invest'
+    name = 'Invest'
+    pre = "<i class='fa fa-road'></i>"
+    url = '/categories/invest'
+    weight = 4
 
   [[menu.main]]
     identifier = 'about'
