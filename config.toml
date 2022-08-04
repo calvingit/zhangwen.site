@@ -6,7 +6,7 @@ theme = 'paper'
 [params]
   github = 'calvingit'
   rss = true
-  avatar = 'https://cdn.zhangwen.site/files/567.png'
+  avatar = 'https://cdn.zhangwen.site/files/swift-circle.svg'
   name = 'Calvin'
   monoDarkIcon = true
 
