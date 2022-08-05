@@ -1,7 +1,7 @@
 ---
 title: Flutter GestureDetector无法获取点击事件的问题
 slug: gestureDetector
-date: 2019-10-05
+date: 2021-10-15
 categories:
   - Flutter
 tags:
