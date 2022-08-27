@@ -2,7 +2,6 @@
 title: 【译】Swift OC C++ Rust Vale 等编程语言的弱引用实现
 slug: surprising-weak-refs
 date: 2022-08-06
-draft: true
 categories:
   - Others
 toc: true
