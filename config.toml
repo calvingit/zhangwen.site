@@ -1,8 +1,8 @@
 baseURL = "http://zhangwen.site"
-title = "Hollow Paradise"
+title = "编程世界"
 theme = "hugo-coder"
-languageCode = "en"
-defaultContentLanguage = "en"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh-cn"
 paginate = 20
 pygmentsStyle = "bw"
 pygmentsCodeFences = true
@@ -35,7 +35,7 @@ rtl = false
 # "light" (light background, dark foreground) (default)
 colorScheme = "auto"
 # Hide the toggle button, along with the associated vertical divider
-hideColorSchemeToggle = false
+hideColorSchemeToggle = true
 # Series see also post count
 maxSeeAlsoItems = 5
 # Custom CSS
@@ -127,7 +127,8 @@ url = "https://twitter.com/zhangwen.site"
 
 
 [languages.en]
-languageName = "English"
+languageName = "En"
+title = "Hollow Paradise"
 
 [[languages.en.menu.main]]
 name = "Blog"
@@ -139,22 +140,11 @@ name = "About"
 weight = 2
 url = "about/"
 
-[[languages.en.menu.main]]
-name = "Skills"
-weight = 3
-url = "skills/"
-
-[[languages.en.menu.main]]
-name = "Contact"
-weight = 4
-url = "contact/"
-
 [languages.zh-cn]
 languageName = "中文"
-title = "树洞乐园"
 
 [languages.zh-cn.params]
-author = "张文"
+author = "Calvin"
 info = "大前端高级搬砖员"
 description = "Sítio pessoal de João Ninguém"
 keywords = "blog,desenvolvedor,pessoal"
@@ -168,13 +158,3 @@ url = "https://blog.zhangwen.site"
 name = "关于"
 weight = 2
 url = "about/"
-
-[[languages.zh-cn.menu.main]]
-name = "专业"
-weight = 3
-url = "skills/"
-
-[[languages.zh-cn.menu.main]]
-name = "联系"
-weight = 4
-url = "contact/"
